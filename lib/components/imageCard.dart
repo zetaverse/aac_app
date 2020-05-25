@@ -4,7 +4,7 @@ class ImageCard extends StatelessWidget {
   ImageCard({@required this.image});
 
   final String image;
-//add variable for onTap page
+//add variable for onTap property
 
   @override
   Widget build(BuildContext context) {
