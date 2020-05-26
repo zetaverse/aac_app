@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:aac_app/components/imageCard.dart';
 
-class KaLessonPage extends StatelessWidget {
+class KaLessonListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
