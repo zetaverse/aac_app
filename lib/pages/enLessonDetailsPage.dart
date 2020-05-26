@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:aac_app/components/bottomButton.dart';
 import 'package:aac_app/components/lessonPageButton.dart';
 
 class LessonDetailsPage extends StatelessWidget {
@@ -31,7 +30,6 @@ class LessonDetailsPage extends StatelessWidget {
               LessonPageButton(buttonText: 'Button Text 5'),
             ],
           ),
-          BottomButton(buttonText: "Go Back"),
         ],
       ),
     );

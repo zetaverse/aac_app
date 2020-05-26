@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:aac_app/components/imageCard.dart';
+import 'package:aac_app/pages/enLessonDetailsPage.dart';
 
 class EnLessonListPage extends StatelessWidget {
   @override
@@ -23,17 +24,7 @@ class EnLessonListPage extends StatelessWidget {
         crossAxisSpacing: 20,
         mainAxisSpacing: 20,
         children: <Widget>[
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
+          ImageCard(page: LessonDetailsPage(),image: 'assets/images/placeholder.png'),
         ],
       ),
     );

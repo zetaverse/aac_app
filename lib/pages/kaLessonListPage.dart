@@ -23,17 +23,7 @@ class KaLessonListPage extends StatelessWidget {
         crossAxisSpacing: 20,
         mainAxisSpacing: 20,
         children: <Widget>[
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
-          ImageCard(image: 'assets/images/placeholder.png'),
+          ImageCard(page: null,image: 'assets/images/placeholder.png'),
         ],
       ),
     );
