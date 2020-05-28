@@ -6,6 +6,8 @@ void main() => runApp(AacApp());
 class AacApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: LangSelectionPage());
+    return MaterialApp(
+      home: LangSelectionPage(),
+    );
   }
 }
