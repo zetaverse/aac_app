@@ -1,16 +1,20 @@
 import 'package:flutter/material.dart';
-
+import 'package:assets_audio_player/assets_audio_player.dart';
 
 class LessonPageButton extends StatelessWidget {
-  LessonPageButton({this.buttonText});
+  LessonPageButton({@required this.buttonText, @required this.audioFile});
 
   final String buttonText;
-  //Add audio player named argument to initialisation
+  final String audioFile;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: null,
+      onTap: () {
+        AssetsAudioPlayer.newPlayer().open(
+          Audio(audioFile),
+        );
+      },
       child: Card(
         margin: EdgeInsets.symmetric(
           vertical: 20.0,

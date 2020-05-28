@@ -19,12 +19,20 @@ class EnAffection extends StatelessWidget {
       backgroundColor: Color(0xFFF3F3F3),
       body: ListView(
         children: <Widget>[
-          LessonPageButton(buttonText: 'I love you'),
-          LessonPageButton(buttonText: 'Mummy, I love you'),
-          LessonPageButton(buttonText: 'Daddy, I love you'),
-          LessonPageButton(buttonText: 'I love my sister'),
-          LessonPageButton(buttonText: 'I love my brother'),
-          LessonPageButton(buttonText: 'I love my teaher'),
+          LessonPageButton(
+              audioFile: 'assets/sounds/test.wav', buttonText: 'I love you'),
+          LessonPageButton(
+              audioFile: 'assets/sounds/test.wav',
+              buttonText: 'Mummy, I love you'),
+          LessonPageButton(
+              audioFile: 'assets/sounds/test.wav',
+              buttonText: 'Daddy, I love you'),
+          LessonPageButton(
+              audioFile: 'assets/sounds/test', buttonText: 'I love my sister'),
+          LessonPageButton(
+              audioFile: 'assets/sounds/test', buttonText: 'I love my brother'),
+          LessonPageButton(
+              audioFile: 'assets/sounds/test', buttonText: 'I love my teaher'),
         ],
       ),
     );
