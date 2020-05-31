@@ -12,7 +12,7 @@ class LangSelectionPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image(
-              image: AssetImage('assets/images/placeholder.png'),
+              image: AssetImage('assets/images/logoImage.png'),
             ),
             SizedBox(
               height: 50.0,

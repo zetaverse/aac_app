@@ -24,7 +24,7 @@ class LessonPageButton extends StatelessWidget {
           padding: EdgeInsets.all(10.0),
           child: ListTile(
             leading: Image(
-              image: AssetImage('assets/images/placeholder30.png'),
+              image: AssetImage('assets/images/soundIcon.png'),
             ),
             title: Text(
               buttonText,

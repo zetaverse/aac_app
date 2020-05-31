@@ -19,12 +19,12 @@ class EnAnswer extends StatelessWidget {
       backgroundColor: Color(0xFFF3F3F3),
       body: ListView(
         children: <Widget>[
-              LessonPageButton(buttonText: 'Yes'),
-              LessonPageButton(buttonText: 'No'),
-              LessonPageButton(buttonText: 'I want it'),
-              LessonPageButton(buttonText: 'I don\'t want it'),
-              LessonPageButton(buttonText: 'I know it'),
-              LessonPageButton(buttonText: 'I don\'t know it'),
+              LessonPageButton(audioFile:null, buttonText: 'Yes'),
+              LessonPageButton(audioFile:null, buttonText: 'No'),
+              LessonPageButton(audioFile:null, buttonText: 'I want it'),
+              LessonPageButton(audioFile:null, buttonText: 'I don\'t want it'),
+              LessonPageButton(audioFile:null, buttonText: 'I know it'),
+              LessonPageButton(audioFile:null, buttonText: 'I don\'t know it'),
             ],
           ),
       );

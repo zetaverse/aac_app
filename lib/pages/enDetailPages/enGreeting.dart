@@ -19,12 +19,12 @@ class EnGreeting extends StatelessWidget {
       backgroundColor: Color(0xFFF3F3F3),
       body: ListView(
         children: <Widget>[
-          LessonPageButton(buttonText: 'Hello'),
-          LessonPageButton(buttonText: 'Good Morning'),
-          LessonPageButton(buttonText: 'Good Afternoon'),
-          LessonPageButton(buttonText: 'Good Evening'),
-          LessonPageButton(buttonText: 'Good Night'),
-          LessonPageButton(buttonText: 'Goodbye'),
+          LessonPageButton(audioFile:null, buttonText: 'Hello'),
+          LessonPageButton(audioFile:null, buttonText: 'Good Morning'),
+          LessonPageButton(audioFile:null, buttonText: 'Good Afternoon'),
+          LessonPageButton(audioFile:null, buttonText: 'Good Evening'),
+          LessonPageButton(audioFile:null, buttonText: 'Good Night'),
+          LessonPageButton(audioFile:null, buttonText: 'Goodbye'),
         ],
       ),
     );
