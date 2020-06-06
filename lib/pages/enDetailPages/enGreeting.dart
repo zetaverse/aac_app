@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:aac_app/components/lessonPageButton.dart';
 
 class EnGreeting extends StatelessWidget {
   @override
@@ -18,14 +17,7 @@ class EnGreeting extends StatelessWidget {
       ),
       backgroundColor: Color(0xFFF3F3F3),
       body: ListView(
-        children: <Widget>[
-          LessonPageButton(audioFile:null, buttonText: 'Hello'),
-          LessonPageButton(audioFile:null, buttonText: 'Good Morning'),
-          LessonPageButton(audioFile:null, buttonText: 'Good Afternoon'),
-          LessonPageButton(audioFile:null, buttonText: 'Good Evening'),
-          LessonPageButton(audioFile:null, buttonText: 'Good Night'),
-          LessonPageButton(audioFile:null, buttonText: 'Goodbye'),
-        ],
+        children: <Widget>[],
       ),
     );
   }

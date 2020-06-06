@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:aac_app/components/lessonPageButton.dart';
 
 class EnWants extends StatelessWidget {
   @override
@@ -18,13 +17,7 @@ class EnWants extends StatelessWidget {
       ),
       backgroundColor: Color(0xFFF3F3F3),
       body: ListView(
-        children: <Widget>[
-          LessonPageButton(audioFile:null, buttonText: 'I want to eat'),
-          LessonPageButton(audioFile:null, buttonText: 'I want water'),
-          LessonPageButton(audioFile:null, buttonText: 'I want to play'),
-          LessonPageButton(audioFile:null, buttonText: 'I want to sleep'),
-          LessonPageButton(audioFile:null, buttonText: 'I want to go to ...'),
-        ],
+        children: <Widget>[],
       ),
     );
   }

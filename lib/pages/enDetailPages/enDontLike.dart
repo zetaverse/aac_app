@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:aac_app/components/lessonPageButton.dart';
 
 class EnDontLike extends StatelessWidget {
   @override
@@ -18,12 +17,7 @@ class EnDontLike extends StatelessWidget {
       ),
       backgroundColor: Color(0xFFF3F3F3),
       body: ListView(
-        children: <Widget>[
-          LessonPageButton(audioFile:null, buttonText: 'I don\'t like noise'),
-          LessonPageButton(audioFile:null, buttonText: 'I don\'t like music'),
-          LessonPageButton(audioFile:null, buttonText: 'I don\'t like to play'),
-          LessonPageButton(audioFile:null, buttonText: 'I don\'t like to write'),
-        ],
+        children: <Widget>[],
       ),
     );
   }
