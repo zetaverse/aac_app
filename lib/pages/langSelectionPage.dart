@@ -98,7 +98,7 @@ class LangSelectionPage extends StatelessWidget {
                   padding: const EdgeInsets.all(10.0),
                   child: ListTile(
                     leading: Text(
-                      'KA',
+                      'ಕೆ',
                       style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.deepOrange,
@@ -107,7 +107,7 @@ class LangSelectionPage extends StatelessWidget {
                       ),
                     ),
                     title: Text(
-                      'Learn using Kannada',
+                      'ಕನ್ನಡ',
                       style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.black,
