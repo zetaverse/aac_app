@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:aac_app/components/rectImageCard.dart';
 
 class EnLike extends StatelessWidget {
   @override
@@ -17,7 +18,24 @@ class EnLike extends StatelessWidget {
       ),
       backgroundColor: Color(0xFFF3F3F3),
       body: ListView(
-        children: <Widget>[],
+        children: <Widget>[
+          RectImageCard(
+            image: 'assets/images/enLikes01.png',
+            audioFile: null,
+          ),
+          RectImageCard(
+            image: 'assets/images/enLikes02.png',
+            audioFile: null,
+          ),
+          RectImageCard(
+            image: 'assets/images/enLikes03.png',
+            audioFile: null,
+          ),
+          RectImageCard(
+            image: 'assets/images/enLikes04.png',
+            audioFile: null,
+          ),
+        ],
       ),
     );
   }
