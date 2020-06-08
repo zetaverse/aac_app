@@ -18,11 +18,11 @@ class KaLessonListPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFFF3F3F3),
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.deepOrange,
         title: Text(
           'ನನ್ನ ಮಾತು',
           style: TextStyle(
-            fontFamily: 'Source Sans Pro',
+            fontFamily: 'Noto Sans Kannada',
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -37,48 +37,48 @@ class KaLessonListPage extends StatelessWidget {
           ImageCard(
             page: KaGreeting(),
             image: 'assets/images/kaGreeting.png',
-            audioFile: 'assets/sounds/test.wav',
+            audioFile: 'assets/sounds/click.wav',
           ),
           ImageCard(
               page: KaSocial(),
               image: 'assets/images/kaSocial.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: KaAnswer(),
               image: 'assets/images/kaAnswer.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: KaAffection(),
               image: 'assets/images/kaAffection.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: KaFeeling(),
               image: 'assets/images/kaFeeling.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: KaWants(),
               image: 'assets/images/kaWants.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: KaLike(),
               image: 'assets/images/kaLike.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: KaDontLike(),
               image: 'assets/images/kaDontLike.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: KaAlphabet(),
               image: 'assets/images/kaAlphabet.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: KaNumbers(),
               image: 'assets/images/kaNumbers.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: KaObjects(),
               image: 'assets/images/kaObjects.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
         ],
       ),
     );

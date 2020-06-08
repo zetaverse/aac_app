@@ -1,6 +1,7 @@
 import 'package:aac_app/pages/enLessonListPage.dart';
 import 'package:flutter/material.dart';
 import 'package:aac_app/pages/kaLessonListPage.dart';
+import 'package:assets_audio_player/assets_audio_player.dart';
 
 class LangSelectionPage extends StatelessWidget {
   @override
@@ -44,6 +45,8 @@ class LangSelectionPage extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () {
+                AssetsAudioPlayer.newPlayer()
+                    .open(Audio('assets/sounds/click.wav'));
                 Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -82,6 +85,8 @@ class LangSelectionPage extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () {
+                AssetsAudioPlayer.newPlayer()
+                    .open(Audio('assets/sounds/click.wav'));
                 Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -102,16 +107,16 @@ class LangSelectionPage extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.deepOrange,
-                        fontFamily: 'Source Sans Pro',
+                        fontFamily: 'Noto Sans Kannada',
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     title: Text(
-                      'ಕನ್ನಡ',
+                      'ಕಂದಾದಲ್ಲಿ ಕಲಿಯಿರಿ',
                       style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.black,
-                        fontFamily: 'Source Sans Pro',
+                        fontFamily: 'Noto Sans Kannada',
                         fontWeight: FontWeight.bold,
                       ),
                     ),

@@ -6,11 +6,11 @@ class KaDontLike extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.deepOrange,
         title: Text(
           "ಇಷ್ಟವಿಲ್ಲ",
           style: TextStyle(
-            fontFamily: 'Source Sans Pro',
+            fontFamily: 'Noto Sans Kannada',
             fontWeight: FontWeight.bold,
           ),
         ),

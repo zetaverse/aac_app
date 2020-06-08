@@ -56,3 +56,6 @@ flutter:
   - family: Source Sans Pro
     fonts:
       - asset: assets/fonts/SourceSansPro-Regular.ttf
+  - family: Noto Sans Kannada
+    fonts:
+      - asset: assets/fonts/NotoSansKannada-Regular.ttf

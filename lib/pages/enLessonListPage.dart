@@ -37,48 +37,48 @@ class EnLessonListPage extends StatelessWidget {
           ImageCard(
             page: EnGreeting(),
             image: 'assets/images/enGreeting.png',
-            audioFile: 'assets/sounds/test.wav',
+            audioFile: 'assets/sounds/click.wav',
           ),
           ImageCard(
               page: EnSocial(),
               image: 'assets/images/enSocial.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: EnAnswer(),
               image: 'assets/images/enAnswer.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: EnAffection(),
               image: 'assets/images/enAffection.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: EnFeeling(),
               image: 'assets/images/enFeeling.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: EnWants(),
               image: 'assets/images/enWants.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: EnLike(),
               image: 'assets/images/enLike.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: EnDontLike(),
               image: 'assets/images/enDontLike.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: EnAlphabet(),
               image: 'assets/images/enAlphabet.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: EnNumbers(),
               image: 'assets/images/enNumbers.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
           ImageCard(
               page: EnObjects(),
               image: 'assets/images/enObjects.png',
-              audioFile: 'assets/sounds/test.wav'),
+              audioFile: 'assets/sounds/click.wav'),
         ],
       ),
     );

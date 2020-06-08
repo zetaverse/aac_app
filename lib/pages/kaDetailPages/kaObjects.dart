@@ -7,11 +7,11 @@ class KaObjects extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFFF3F3F3),
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.deepOrange,
         title: Text(
           'ವಸ್ತುಗಳು',
           style: TextStyle(
-            fontFamily: 'Source Sans Pro',
+            fontFamily: 'Noto Sans Kannada',
             fontWeight: FontWeight.bold,
           ),
         ),

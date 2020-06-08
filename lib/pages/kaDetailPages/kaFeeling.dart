@@ -6,11 +6,11 @@ class KaFeeling extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.deepOrange,
         title: Text(
           "ಭಾವನೆಗಳು",
           style: TextStyle(
-            fontFamily: 'Source Sans Pro',
+            fontFamily: 'Noto Sans Kannada',
             fontWeight: FontWeight.bold,
           ),
         ),

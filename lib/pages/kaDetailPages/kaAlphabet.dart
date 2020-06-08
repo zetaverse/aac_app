@@ -7,11 +7,11 @@ class KaAlphabet extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFFF3F3F3),
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.deepOrange,
         title: Text(
           'ಅಕ್ಷರಗಳು',
           style: TextStyle(
-            fontFamily: 'Source Sans Pro',
+            fontFamily: 'Noto Sans Kannada',
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -38,7 +38,6 @@ class KaAlphabet extends StatelessWidget {
           InnerImageCard(image: 'assets/images/kalpha13.png', audioFile: null),
           InnerImageCard(image: 'assets/images/kalpha14.png', audioFile: null),
           InnerImageCard(image: 'assets/images/kalpha15.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha16.png', audioFile: null),
         ],
       ),
     );
