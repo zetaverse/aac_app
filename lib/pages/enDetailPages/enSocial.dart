@@ -21,27 +21,27 @@ class EnSocial extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/enSocial01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enSocial01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enSocial02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enSocial02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enSocial03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enSocial03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enSocial04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enSocial04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enSocial05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enSocial05.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enSocial06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enSocial06.mp3',
           ),
         ],
       ),

@@ -21,27 +21,27 @@ class KaAnswer extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/kaAnswers01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAnswers01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAnswers02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAnswers02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAnswers03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAnswers03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAnswers04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAnswers04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAnswers05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAnswers05.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAnswers06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAnswers06.mp3',
           ),
         ],
       ),

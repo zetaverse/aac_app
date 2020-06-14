@@ -21,27 +21,27 @@ class EnAnswer extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/enAnswers01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAnswers01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAnswers02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAnswers02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAnswers03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAnswers03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAnswers04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAnswers04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAnswers05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAnswers05.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAnswers06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAnswers06.mp3',
           ),
         ],
       ),

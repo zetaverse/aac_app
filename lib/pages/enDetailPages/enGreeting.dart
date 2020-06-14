@@ -21,27 +21,27 @@ class EnGreeting extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/enGreetings01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enGreetings01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enGreetings02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enGreetings02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enGreetings03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enGreetings03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enGreetings04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enGreetings04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enGreetings05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enGreetings05.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enGreetings06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enGreetings06.mp3',
           ),
         ],
       ),

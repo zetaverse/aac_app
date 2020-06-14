@@ -21,23 +21,23 @@ class KaLike extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/kaLikes01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaLikes01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaLikes02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaLikes02.mp3',
           ),
-          RectImageCard(
-            image: 'assets/images/kaLikes03.png',
-            audioFile: null,
-          ),
-          RectImageCard(
-            image: 'assets/images/kaLikes04.png',
-            audioFile: null,
-          ),
+          // RectImageCard(
+          //   image: 'assets/images/kaLikes03.png',
+          //   audioFile: 'assets/sounds/kaLikes03.mp3',
+          // ),
+          // RectImageCard(
+          //   image: 'assets/images/kaLikes04.png',
+          //   audioFile: 'assets/sounds/kaLikes04.mp3',
+          // ),
           RectImageCard(
             image: 'assets/images/kaLikes05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaLikes05.mp3',
           ),
         ],
       ),

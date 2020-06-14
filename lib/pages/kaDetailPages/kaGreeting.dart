@@ -21,27 +21,27 @@ class KaGreeting extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/kaGreetings01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaGreetings01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaGreetings02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaGreetings02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaGreetings03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaGreetings03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaGreetings04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaGreetings04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaGreetings05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaGreetings05.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaGreetings06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaGreetings06.mp3',
           ),
         ],
       ),

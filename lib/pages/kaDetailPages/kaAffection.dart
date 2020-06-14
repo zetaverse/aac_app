@@ -21,27 +21,27 @@ class KaAffection extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/kaAffection01.png',
-            audioFile: 'assets/sounds/test.wav',
+            audioFile: 'assets/sounds/kaAffection01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAffection02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAffection02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAffection03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAffection03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAffection04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAffection04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAffection05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAffection05.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaAffection06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaAffection06.mp3',
           ),
         ],
       ),

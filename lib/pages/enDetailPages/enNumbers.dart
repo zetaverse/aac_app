@@ -25,43 +25,43 @@ class EnNumbers extends StatelessWidget {
         children: <Widget>[
           InnerImageCard(
             image: 'assets/images/enOne.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enOne.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/enTwo.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enTwo.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/enThree.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enThree.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/enFour.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFour.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/enFive.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFive.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/enSix.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enSix.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/enSeven.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enSeven.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/enEight.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enEight.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/enNine.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enNine.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/enTen.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enTen.mp3',
           ),
         ],
       ),

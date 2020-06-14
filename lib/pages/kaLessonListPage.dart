@@ -37,48 +37,48 @@ class KaLessonListPage extends StatelessWidget {
           ImageCard(
             page: KaGreeting(),
             image: 'assets/images/kaGreeting.png',
-            audioFile: 'assets/sounds/click.wav',
+            audioFile: 'assets/sounds/tap.wav',
           ),
           ImageCard(
               page: KaSocial(),
               image: 'assets/images/kaSocial.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
           ImageCard(
               page: KaAnswer(),
               image: 'assets/images/kaAnswer.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
           ImageCard(
               page: KaAffection(),
               image: 'assets/images/kaAffection.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
           ImageCard(
               page: KaFeeling(),
               image: 'assets/images/kaFeeling.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
           ImageCard(
               page: KaWants(),
               image: 'assets/images/kaWants.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
           ImageCard(
               page: KaLike(),
               image: 'assets/images/kaLike.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
           ImageCard(
               page: KaDontLike(),
               image: 'assets/images/kaDontLike.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
           ImageCard(
               page: KaAlphabet(),
               image: 'assets/images/kaAlphabet.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
           ImageCard(
               page: KaNumbers(),
               image: 'assets/images/kaNumbers.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
           ImageCard(
               page: KaObjects(),
               image: 'assets/images/kaObjects.png',
-              audioFile: 'assets/sounds/click.wav'),
+              audioFile: 'assets/sounds/tap.wav'),
         ],
       ),
     );

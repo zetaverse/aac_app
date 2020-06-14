@@ -21,23 +21,23 @@ class KaDontLike extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/kaDontLike01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaDontLike01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaDontLike02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaDontLike02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaDontLike03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaDontLike03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaDontLike04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaDontLike04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaDontLike05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaDontLike05.mp3',
           )
         ],
       ),

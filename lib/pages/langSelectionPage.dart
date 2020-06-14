@@ -46,7 +46,7 @@ class LangSelectionPage extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 AssetsAudioPlayer.newPlayer()
-                    .open(Audio('assets/sounds/click.wav'));
+                    .open(Audio('assets/sounds/tap.wav'));
                 Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -86,7 +86,7 @@ class LangSelectionPage extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 AssetsAudioPlayer.newPlayer()
-                    .open(Audio('assets/sounds/click.wav'));
+                    .open(Audio('assets/sounds/tap.wav'));
                 Navigator.push(
                   context,
                   MaterialPageRoute(

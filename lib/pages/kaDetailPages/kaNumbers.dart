@@ -25,43 +25,43 @@ class KaNumbers extends StatelessWidget {
         children: <Widget>[
           InnerImageCard(
             image: 'assets/images/kaOne.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaOne.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/kaTwo.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaTwo.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/kaThree.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaThree.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/kaFour.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaFour.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/kaFive.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaFive.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/kaSix.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaSix.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/kaSeven.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaSeven.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/kaEight.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaEight.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/kaNine.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaNine.mp3',
           ),
           InnerImageCard(
             image: 'assets/images/kaTen.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaTen.mp3',
           ),
         ],
       ),

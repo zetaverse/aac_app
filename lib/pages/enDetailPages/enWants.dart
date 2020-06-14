@@ -21,23 +21,23 @@ class EnWants extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/enWants01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enWants01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enWants02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enWants02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enWants03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enWants03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enWants04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enWants04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enWants05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enWants05.mp3',
           ),
         ],
       ),

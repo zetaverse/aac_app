@@ -21,27 +21,23 @@ class KaSocial extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/kaSocial01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaSocial01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaSocial02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaSocial02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaSocial03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaSocial03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaSocial04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaSocial04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaSocial05.png',
-            audioFile: null,
-          ),
-          RectImageCard(
-            image: 'assets/images/kaSocial06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaSocial05.mp3',
           ),
         ],
       ),

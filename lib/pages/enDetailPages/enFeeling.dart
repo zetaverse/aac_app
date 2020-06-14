@@ -21,35 +21,35 @@ class EnFeeling extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/enFeelings01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFeelings01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enFeelings02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFeelings02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enFeelings03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFeelings03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enFeelings04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFeelings04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enFeelings05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFeelings05.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enFeelings06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFeelings06.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enFeelings07.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFeelings07.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enFeelings08.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enFeelings08.mp3',
           ),
         ],
       ),

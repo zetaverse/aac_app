@@ -21,19 +21,19 @@ class EnDontLike extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/enDontLike01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enDontLike01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enDontLike02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enDontLike02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enDontLike03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enDontLike03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enDontLike04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enDontLike04.mp3',
           ),
         ],
       ),

@@ -21,19 +21,19 @@ class EnLike extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/enLikes01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enLikes01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enLikes02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enLikes02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enLikes03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enLikes03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enLikes04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enLikes04.mp3',
           ),
         ],
       ),

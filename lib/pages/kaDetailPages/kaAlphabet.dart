@@ -23,21 +23,66 @@ class KaAlphabet extends StatelessWidget {
         crossAxisSpacing: 20,
         mainAxisSpacing: 20,
         children: <Widget>[
-          InnerImageCard(image: 'assets/images/kalpha01.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha02.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha03.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha04.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha05.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha06.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha07.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha08.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha09.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha10.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha11.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha12.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha13.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha14.png', audioFile: null),
-          InnerImageCard(image: 'assets/images/kalpha15.png', audioFile: null),
+          InnerImageCard(
+            image: 'assets/images/kalpha01.png',
+            audioFile: 'assets/sounds/kalpha01.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha02.png',
+            audioFile: 'assets/sounds/kalpha02.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha03.png',
+            audioFile: 'assets/sounds/kalpha03.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha04.png',
+            audioFile: 'assets/sounds/kalpha04.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha05.png',
+            audioFile: 'assets/sounds/kalpha05.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha06.png',
+            audioFile: 'assets/sounds/kalpha06.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha07.png',
+            audioFile: 'assets/sounds/kalpha07.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha08.png',
+            audioFile: 'assets/sounds/kalpha08.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha09.png',
+            audioFile: 'assets/sounds/kalpha09.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha10.png',
+            audioFile: 'assets/sounds/kalpha10.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha11.png',
+            audioFile: 'assets/sounds/kalpha11.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha12.png',
+            audioFile: 'assets/sounds/kalpha12.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha13.png',
+            audioFile: 'assets/sounds/kalpha13.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha14.png',
+            audioFile: 'assets/sounds/kalpha14.mp3',
+          ),
+          InnerImageCard(
+            image: 'assets/images/kalpha15.png',
+            audioFile: 'assets/sounds/kalpha15.mp3',
+          ),
         ],
       ),
     );

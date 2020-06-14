@@ -21,31 +21,31 @@ class KaFeeling extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/kaFeelings01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaFeelings01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaFeelings02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaFeelings02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaFeelings03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaFeelings03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaFeelings04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaFeelings04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaFeelings05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaFeelings05.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaFeelings06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaFeelings06.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaFeelings07.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaFeelings07.mp3',
           ),
         ],
       ),

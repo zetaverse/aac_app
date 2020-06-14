@@ -21,23 +21,23 @@ class KaWants extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/kaWants01.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaWants01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaWants02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaWants02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaWants03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaWants03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaWants04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaWants04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/kaWants05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/kaWants05.mp3',
           ),
         ],
       ),

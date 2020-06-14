@@ -21,27 +21,27 @@ class EnAffection extends StatelessWidget {
         children: <Widget>[
           RectImageCard(
             image: 'assets/images/enAffection01.png',
-            audioFile: 'assets/sounds/test.wav',
+            audioFile: 'assets/sounds/enAffection01.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAffection02.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAffection02.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAffection03.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAffection03.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAffection04.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAffection04.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAffection05.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAffection05.mp3',
           ),
           RectImageCard(
             image: 'assets/images/enAffection06.png',
-            audioFile: null,
+            audioFile: 'assets/sounds/enAffection06.mp3',
           ),
         ],
       ),
