@@ -1,6 +1,6 @@
-import 'package:aac_app/pages/enLessonListPage.dart';
+import 'package:aac_app/pages/enMainPage.dart';
+import 'package:aac_app/pages/kaMainPage.dart';
 import 'package:flutter/material.dart';
-import 'package:aac_app/pages/kaLessonListPage.dart';
 import 'package:assets_audio_player/assets_audio_player.dart';
 
 class LangSelectionPage extends StatelessWidget {
@@ -50,7 +50,7 @@ class LangSelectionPage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => EnLessonListPage(),
+                    builder: (context) => EnMainPage(),
                   ),
                 );
               },
@@ -71,13 +71,15 @@ class LangSelectionPage extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    title: Text(
-                      'Learn using English',
-                      style: TextStyle(
-                          color: Colors.black,
-                          fontFamily: 'Source Sans Pro',
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20.0),
+                    title: Center(
+                      child: Text(
+                        'English',
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontFamily: 'Source Sans Pro',
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20.0),
+                      ),
                     ),
                   ),
                 ),
@@ -90,7 +92,7 @@ class LangSelectionPage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => KaLessonListPage(),
+                    builder: (context) => KaMainPage(),
                   ),
                 );
               },
@@ -111,13 +113,15 @@ class LangSelectionPage extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    title: Text(
-                      'ಕಂದಾದಲ್ಲಿ ಕಲಿಯಿರಿ',
-                      style: TextStyle(
-                        fontSize: 20.0,
-                        color: Colors.black,
-                        fontFamily: 'Noto Sans Kannada',
-                        fontWeight: FontWeight.bold,
+                    title: Center(
+                      child: Text(
+                        'ಕನ್ನಡ',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          color: Colors.black,
+                          fontFamily: 'Noto Sans Kannada',
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                   ),

@@ -1,18 +1,15 @@
-import 'package:aac_app/pages/enDetailPages/enAffection.dart';
-import 'package:aac_app/pages/enDetailPages/enAlphabet.dart';
-import 'package:aac_app/pages/enDetailPages/enAnswer.dart';
-import 'package:aac_app/pages/enDetailPages/enDontLike.dart';
-import 'package:aac_app/pages/enDetailPages/enFeeling.dart';
-import 'package:aac_app/pages/enDetailPages/enLike.dart';
-import 'package:aac_app/pages/enDetailPages/enNumbers.dart';
-import 'package:aac_app/pages/enDetailPages/enObjects.dart';
-import 'package:aac_app/pages/enDetailPages/enSocial.dart';
-import 'package:aac_app/pages/enDetailPages/enWants.dart';
+import 'package:aac_app/pages/english/enAffection.dart';
+import 'package:aac_app/pages/english/enAnswer.dart';
+import 'package:aac_app/pages/english/enDontLike.dart';
+import 'package:aac_app/pages/english/enFeeling.dart';
+import 'package:aac_app/pages/english/enLike.dart';
+import 'package:aac_app/pages/english/enSocial.dart';
+import 'package:aac_app/pages/english/enWants.dart';
 import 'package:flutter/material.dart';
 import 'package:aac_app/components/imageCard.dart';
-import 'package:aac_app/pages/enDetailPages/enGreeting.dart';
+import 'package:aac_app/pages/english/enGreeting.dart';
 
-class EnLessonListPage extends StatelessWidget {
+class EnMyTalk extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +17,7 @@ class EnLessonListPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.purple,
         title: Text(
-          'Let Me Talk',
+          'My Talk',
           style: TextStyle(
             fontFamily: 'Source Sans Pro',
             fontWeight: FontWeight.bold,
@@ -66,18 +63,6 @@ class EnLessonListPage extends StatelessWidget {
           ImageCard(
               page: EnDontLike(),
               image: 'assets/images/enDontLike.png',
-              audioFile: 'assets/sounds/tap.wav'),
-          ImageCard(
-              page: EnAlphabet(),
-              image: 'assets/images/enAlphabet.png',
-              audioFile: 'assets/sounds/tap.wav'),
-          ImageCard(
-              page: EnNumbers(),
-              image: 'assets/images/enNumbers.png',
-              audioFile: 'assets/sounds/tap.wav'),
-          ImageCard(
-              page: EnObjects(),
-              image: 'assets/images/enObjects.png',
               audioFile: 'assets/sounds/tap.wav'),
         ],
       ),
