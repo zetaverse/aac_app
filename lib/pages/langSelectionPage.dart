@@ -63,7 +63,7 @@ class LangSelectionPage extends StatelessWidget {
                   padding: const EdgeInsets.all(10.0),
                   child: ListTile(
                     leading: Text(
-                      'EN',
+                      'En',
                       style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.deepPurple,
@@ -71,15 +71,13 @@ class LangSelectionPage extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    title: Center(
-                      child: Text(
-                        'English',
-                        style: TextStyle(
-                            color: Colors.black,
-                            fontFamily: 'Source Sans Pro',
-                            fontWeight: FontWeight.bold,
-                            fontSize: 20.0),
-                      ),
+                    title: Text(
+                      'English Language',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontFamily: 'Source Sans Pro',
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20.0),
                     ),
                   ),
                 ),
@@ -113,15 +111,13 @@ class LangSelectionPage extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    title: Center(
-                      child: Text(
-                        'ಕನ್ನಡ',
-                        style: TextStyle(
-                          fontSize: 20.0,
-                          color: Colors.black,
-                          fontFamily: 'Noto Sans Kannada',
-                          fontWeight: FontWeight.bold,
-                        ),
+                    title: Text(
+                      'ಕನ್ನಡ ಭಾಷೆ',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        color: Colors.black,
+                        fontFamily: 'Noto Sans Kannada',
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                   ),

@@ -34,36 +34,36 @@ class KaMyTalk extends StatelessWidget {
           ImageCard(
             page: KaGreeting(),
             image: 'assets/images/kaGreeting.png',
-            audioFile: 'assets/sounds/tap.wav',
+            audioFile: 'assets/sounds/kaGreeting.mp3',
           ),
           ImageCard(
               page: KaSocial(),
               image: 'assets/images/kaSocial.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaSocial.mp3'),
           ImageCard(
               page: KaAnswer(),
               image: 'assets/images/kaAnswer.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaAnswer.mp3'),
           ImageCard(
               page: KaAffection(),
               image: 'assets/images/kaAffection.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaAffection.mp3'),
           ImageCard(
               page: KaFeeling(),
               image: 'assets/images/kaFeeling.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaFeeling.mp3'),
           ImageCard(
               page: KaWants(),
               image: 'assets/images/kaWants.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaWants.mp3'),
           ImageCard(
               page: KaLike(),
               image: 'assets/images/kaLike.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaLike.mp3'),
           ImageCard(
               page: KaDontLike(),
               image: 'assets/images/kaDontLike.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaDontLike.mp3'),
         ],
       ),
     );

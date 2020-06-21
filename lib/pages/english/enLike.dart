@@ -8,7 +8,7 @@ class EnLike extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.purple,
         title: Text(
-          "Likes",
+          "I like",
           style: TextStyle(
             fontFamily: 'Source Sans Pro',
             fontWeight: FontWeight.bold,

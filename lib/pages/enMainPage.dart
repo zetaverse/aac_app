@@ -1,3 +1,4 @@
+import 'package:aac_app/components/innerImageCard.dart';
 import 'package:aac_app/pages/english/enMyTalk.dart';
 import 'package:aac_app/pages/english/enAlphabet.dart';
 import 'package:aac_app/pages/english/enNumbers.dart';
@@ -30,31 +31,29 @@ class EnMainPage extends StatelessWidget {
           ImageCard(
             page: EnMyTalk(),
             image: 'assets/images/enMyTalk.png',
-            audioFile: 'assets/sounds/tap.wav',
+            audioFile: 'assets/sounds/enMyTalk.mp3',
           ),
           ImageCard(
             page: EnAlphabet(),
             image: 'assets/images/enAlphabet.png',
-            audioFile: 'assets/sounds/tap.wav',
+            audioFile: 'assets/sounds/enAlphabet.mp3',
           ),
           ImageCard(
             page: EnNumbers(),
             image: 'assets/images/enNumbers.png',
-            audioFile: 'assets/sounds/tap.wav',
+            audioFile: 'assets/sounds/enNumbers.mp3',
           ),
           ImageCard(
               page: EnObjects(),
               image: 'assets/images/enObjects.png',
-              audioFile: 'assets/sounds/tap.wav'),
-          ImageCard(
-            page: null,
+              audioFile: 'assets/sounds/enObjects.mp3'),
+          InnerImageCard(
             image: 'assets/images/enSchedule.png',
-            audioFile: 'assets/sounds/tap.wav',
+            audioFile: 'assets/sounds/enComingSoon.mp3',
           ),
-          ImageCard(
-            page: null,
+          InnerImageCard(
             image: 'assets/images/enStories.png',
-            audioFile: 'assets/sounds/tap.wav',
+            audioFile: 'assets/sounds/enComingSoon.mp3',
           ),
         ],
       ),

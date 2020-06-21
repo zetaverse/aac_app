@@ -34,36 +34,36 @@ class EnMyTalk extends StatelessWidget {
           ImageCard(
             page: EnGreeting(),
             image: 'assets/images/enGreeting.png',
-            audioFile: 'assets/sounds/tap.wav',
+            audioFile: 'assets/sounds/enGreetings.mp3',
           ),
           ImageCard(
               page: EnSocial(),
               image: 'assets/images/enSocial.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/enSocial.mp3'),
           ImageCard(
               page: EnAnswer(),
               image: 'assets/images/enAnswer.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/enAnswer.mp3'),
           ImageCard(
               page: EnAffection(),
               image: 'assets/images/enAffection.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/enAffection.mp3'),
           ImageCard(
               page: EnFeeling(),
               image: 'assets/images/enFeeling.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/enFeeling.mp3'),
           ImageCard(
               page: EnWants(),
               image: 'assets/images/enWants.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/enWants.mp3'),
           ImageCard(
               page: EnLike(),
               image: 'assets/images/enLike.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/enLike.mp3'),
           ImageCard(
               page: EnDontLike(),
               image: 'assets/images/enDontLike.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/enDontLike.mp3'),
         ],
       ),
     );

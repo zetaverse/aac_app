@@ -8,7 +8,7 @@ class EnDontLike extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.purple,
         title: Text(
-          "Don\'t Like",
+          "I don\'t Like",
           style: TextStyle(
             fontFamily: 'Source Sans Pro',
             fontWeight: FontWeight.bold,

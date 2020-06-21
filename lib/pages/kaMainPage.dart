@@ -1,3 +1,4 @@
+import 'package:aac_app/components/innerImageCard.dart';
 import 'package:aac_app/pages/kannada/kaMyTalk.dart';
 import 'package:aac_app/pages/kannada/kaAlphabet.dart';
 import 'package:aac_app/pages/kannada/kaNumbers.dart';
@@ -30,28 +31,26 @@ class KaMainPage extends StatelessWidget {
           ImageCard(
             page: KaMyTalk(),
             image: 'assets/images/kaMyTalk.png',
-            audioFile: 'assets/sounds/tap.wav',
+            audioFile: 'assets/sounds/kaMyTalk.mp3',
           ),
           ImageCard(
               page: KaAlphabet(),
               image: 'assets/images/kaAlphabet.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaAlphabet.mp3'),
           ImageCard(
               page: KaNumbers(),
               image: 'assets/images/kaNumbers.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaNumbers.mp3'),
           ImageCard(
               page: KaObjects(),
               image: 'assets/images/kaObjects.png',
-              audioFile: 'assets/sounds/tap.wav'),
-          ImageCard(
-              page: null,
+              audioFile: 'assets/sounds/kaObjects.mp3'),
+          InnerImageCard(
               image: 'assets/images/kaSchedule.png',
-              audioFile: 'assets/sounds/tap.wav'),
-          ImageCard(
-              page: null,
+              audioFile: 'assets/sounds/kaComingSoon.mp3'),
+          InnerImageCard(
               image: 'assets/images/kaStories.png',
-              audioFile: 'assets/sounds/tap.wav'),
+              audioFile: 'assets/sounds/kaComingSoon.mp3'),
         ],
       ),
     );
