@@ -35,6 +35,10 @@ class EnDontLike extends StatelessWidget {
             image: 'assets/images/enDontLike04.png',
             audioFile: 'assets/sounds/enDontLike04.mp3',
           ),
+          RectImageCard(
+            image: 'assets/images/enDontLike05.png',
+            audioFile: 'assets/sounds/enDontLike05.mp3',
+          ),
         ],
       ),
     );
